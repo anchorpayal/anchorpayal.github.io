@@ -2416,7 +2416,32 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+                height:
 	}
+        .image.pic1 {
+            height: 380px;
+        }
+
+        .image.pic2 {
+            height: 380px;
+        }
+        .image.logo {
+            vertical-align: middle;
+            height:100%;
+            padding: 1rem;
+        }
+        .logo-container {
+
+
+        }
+        .image.logo img {
+            height:100%;
+            vertical-align: middle;
+            width: 100px;
+            top: 50%;
+            height:100%;
+        }
+
 
 		.image img {
 			display: block;
@@ -2471,7 +2496,9 @@
 			}
 
 		@media screen and (max-width: 736px) {
-
+                    .image.left {
+                        max-width: 100%;
+                    }
 			.image.fit {
 				margin: 2rem 0;
 			}
