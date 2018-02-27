@@ -3629,6 +3629,18 @@
 				text-align: center;
 			}
 
+                        #main > .post.featured-button {
+				text-align: center;
+			        padding: 1rem 1rem 1rem 1rem;
+			}
+
+                        #main > .post.featured-button .actions {
+                            margin:0;
+				text-align: center;
+			        padding: 1rem 1rem 1rem 1rem;
+			}
+
+
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
