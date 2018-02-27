@@ -2699,6 +2699,7 @@
 							padding-top: 0;
 						}
 
+
 			}
 
 	dl {
@@ -3100,7 +3101,7 @@
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: 180%, 100%;
 			}
 
 		}
