@@ -949,23 +949,38 @@ var skel=function(){"use strict";var t={breakpointIds:null,events:{},isInit:!1,o
         type: 'image' // this is default type
     });
 
-    $('#dy_patil').magnificPopup({
-        items: [
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/dy_patil/01.jpg",
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/dy_patil/02.jpg",
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/dy_patil/03.jpg",
-            }
-        ],
-        gallery: {
-            enabled: true
-        },
-        type: 'image' // this is default type
-    });
+  $('#sangeet').magnificPopup({
+    items: [
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-1.jpg",
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-2.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-3.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-4.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-5.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-6.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-7.jpg"
+      },
+      {
+        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-8.jpg"
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+  });
 })(jQuery);
 
 
