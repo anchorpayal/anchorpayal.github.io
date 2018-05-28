@@ -264,124 +264,115 @@
 
 	});
 
+    var more_events = [
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/udaipur/01.jpg",
+            title: "Team building for 2 clubbed companies Zen Exima and Ruckus Networks, an evening where all the members from the company got to know each other with the various games conducted"
+        },
+        {
+            src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-7.jpg",
+            title: "Sangeet ceremony hosted for Sanghvi family. Very fun filled event full of laughter and joy!"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/1.jpg",
+            title: "Regional meet for Dr Reddys"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/2.jpg",
+            title: "Destination wedding event in Belgaum"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/3.jpg",
+            title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/4.jpg",
+            title: "Building Estate Launch of Tirupati Homes in Aurangabad"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/5.jpg",
+            title: "Rewards Night for Veiva"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/6.jpg",
+            title: "Dandiya event in pune in presence of Zareen Khan"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/7.jpg",
+            title: "Rewards Night for Veiva"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/8.jpg",
+            title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/9.jpg",
+            title: "Dandiya event in pune in presence of Zareen Khan"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/10.jpg",
+            title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/11.jpg",
+            title: "Wedding event in Qatar for the Abbas Family in presence of Pakistani player"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/12.jpg",
+            title: "Rewards and recognition Night for Syntel in Mumbai"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/13.jpg",
+            title: "Rewards and recognition Night for Syntel in Mumbai"
+        },
+        {
+            src: "https://payalb.s3.amazonaws.com/gallery/14.jpg",
+            title: "Annual meet In Mumbai for Dr Reddys"
+        }
+    ];
+
     $('#gallery a').magnificPopup({
-        items: [
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/1.jpg",
-                title: "Regional meet for Dr Reddys"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/2.jpg",
-                title: "Destination wedding event in Belgaum"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/3.jpg",
-                title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/4.jpg",
-                title: "Building Estate Launch of Tirupati Homes in Aurangabad"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/5.jpg",
-                title: "Rewards Night for Veiva"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/6.jpg",
-                title: "Dandiya event in pune in presence of Zareen Khan"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/7.jpg",
-                title: "Rewards Night for Veiva"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/8.jpg",
-                title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/9.jpg",
-                title: "Dandiya event in pune in presence of Zareen Khan"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/10.jpg",
-                title: "Launch of Clai Brand in Pune in presence of Umesh Kamat, Santosh Juvekar and Swapnil Joshi"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/11.jpg",
-                title: "Wedding event in Qatar for the Abbas Family in presence of Pakistani player"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/12.jpg",
-                title: "Rewards and recognition Night for Syntel in Mumbai"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/13.jpg",
-                title: "Rewards and recognition Night for Syntel in Mumbai"
-            },
-            {
-                src: "https://payalb.s3.amazonaws.com/gallery/14.jpg",
-                title: "Annual meet In Mumbai for Dr Reddys"
-            }
-        ],
+        items: more_events,
         gallery: {
             enabled: true
         },
         type: 'image' // this is default type
     });
 
-    $('#udaipur').magnificPopup({
+    $('#event_1').magnificPopup({
         items: [
             {
-                src: "https://payalb.s3.amazonaws.com/gallery/udaipur/01.jpg",
+                src: "https:///payalb.s3.amazonaws.com/gallery/20_may_2018_tata_motors/1.jpg",
             },
             {
-                src: "https://payalb.s3.amazonaws.com/gallery/udaipur/02.jpg",
+                src: "https:///payalb.s3.amazonaws.com/gallery/20_may_2018_tata_motors/2.jpg",
             },
             {
-                src: "https://payalb.s3.amazonaws.com/gallery/udaipur/03.jpg",
+                src: "https:///payalb.s3.amazonaws.com/gallery/20_may_2018_tata_motors/3.jpg",
             },
             {
-                src: "https://payalb.s3.amazonaws.com/gallery/udaipur/04.jpg",
+                src: "https:///payalb.s3.amazonaws.com/gallery/20_may_2018_tata_motors/4.jpg",
+            },
+            {
+                src: "https:///payalb.s3.amazonaws.com/gallery/20_may_2018_tata_motors/5.jpg",
             }
-        ],
+        ].concat(more_events),
         gallery: {
             enabled: true
         },
         type: 'image' // this is default type
     });
 
-  $('#sangeet').magnificPopup({
-    items: [
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-1.jpg",
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-2.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-3.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-4.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-5.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-6.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-7.jpg"
-      },
-      {
-        src: "https://s3.ap-south-1.amazonaws.com/payalb/gallery/3_march_2018/3_march_2018-8.jpg"
-      }
-    ],
-    gallery: {
-      enabled: true
-    },
-    type: 'image' // this is default type
-  });
+    $('#event_2').magnificPopup({
+        items: [
+            {
+                src: "https://payalb.s3.amazonaws.com/gallery/24_may_2018_shriram/01.jpg"
+            }].concat(more_events),
+        gallery: {
+            enabled: true
+        },
+        type: 'image' // this is default type
+    });
 })(jQuery);
 
 
